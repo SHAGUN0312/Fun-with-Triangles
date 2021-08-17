@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fun With Triangles | Triangle Quiz</title>
+    <link rel="stylesheet" href="../isTriangle/style.css" />
+  </head>
+
+  <body>
+    <nav class="navigation">
+      <a href="../isTriangle/isTriangle.html">Sum Of Angles ?</a>
+      <a href="../hypotenuse/hypotenuse.html">Calculate Hypotenuse</a>
+      <a href="../CalculateArea/area.html">Calculate Area</a>
+    </nav>
+    <h1>Triangle Quiz</h1>
+    <form class="quiz-form">
+      <div>
+        <p>
+          This triangle is one where all 3 angles measure less than 90 degrees.
+        </p>
+        <label
+          ><input
+            required
+            type="radio"
+            name="question1"
+            value="Acute"
+          />Acute</label
+        >
+        <label
+          ><input required type="radio" name="question1" value="Right" />
+          Right</label
+        >
+        <label
+          ><input
+            required
+            type="radio"
+            name="question1"
+            value="Obtuse"
+          />Obtuse</label
+        >
+      </div>
+      <div>
+        <p>A triangle where all sides are congruent is called :</p>
+        <label
+          ><input
+            required
+            type="radio"
+            name="question2"
+            value="Scalene"
+          />Scalene</label
+        >
+        <label
+          ><input
+            required
+            type="radio"
+            name="question2"
+            value="Isosceles"
+          />Isosceles</label
+        >
+        <label
+          ><input
+            required
+            type="radio"
+            name="question2"
+            value="Equilateral"
+          />Equilateral</label
+        >
+      </div>
+      <div>
+        <p>An isosceles triangle has :</p>
+        <label
+          ><input
+            required
+            type="radio"
+            name="question3"
+            value=" 
+          No congruent sides"
+          />
+          No congruent sides</label
+        >
+        <label
+          ><input
+            required
+            type="radio"
+            name="question3"
+            value="2 congruent sides"
+          />
+          2 congruent sides</label
+        >
+        <label
+          ><input
+            required
+            type="radio"
+            name="question3"
+            value=" 
+            3 congruent sides"
+          />
+          3 congruent sides</label
+        >
+      </div>
+      <div>
+        <p>
+          What is the third angle for the triangle where the angle1 = 45º and
+          angle2 = 45º ?
+        </p>
+        <label
+          ><input
+            required
+            type="radio"
+            name="question4"
+            value="45º"
+          />45º</label
+        >
+        <label
+          ><input
+            required
+            type="radio"
+            name="question4"
+            value="60º"
+          />60º</label
+        >
+        <label
+          ><input
+            required
+            type="radio"
+            name="question4"
+            value="90º"
+          />90º</label
+        >
+      </div>
+      <div>
+        <p>Which type of triangle has one 90 degree angle ?</p>
+        <label
+          ><input
+            required
+            type="radio"
+            name="question5"
+            value="Acute"
+          />Acute</label
+        >
+        <label
+          ><input required type="radio" name="question5" value="Right" />
+          Right</label
+        >
+        <label
+          ><input
+            required
+            type="radio"
+            name="question5"
+            value="Obtuse"
+          />Obtuse</label
+        >
+      </div>
+      <div>
+        <p>All 3 interior angles of a triangle add up to ?</p>
+        <label
+          ><input required type="radio" name="question6" value="90 degrees" />90
+          degrees</label
+        >
+        <label
+          ><input required type="radio" name="question6" value="180 degrees" />
+          180 degrees</label
+        >
+        <label
+          ><input
+            required
+            type="radio"
+            name="question6"
+            value=" 
+          360 degrees"
+          />
+          360 degrees</label
+        >
+      </div>
+      <button id="submit-btn">Submit Answer ➡</button>
+    </form>
+    <div id="output"></div>
+    <button id="reset-btn">⬅ Try again?</button>
+    <script src="script.js"></script>
+  </body>
+</html>

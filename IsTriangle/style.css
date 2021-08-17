@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+:root {
+    --primary-color: #1E293B;
+    --secondary-color: #E5E7EB;
+}
+
+* {
+    margin-top: 0.7rem;
+}
+
+body {
+    text-align: center;
+    background-color: var(--primary-color);
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 0.1rem;
+    font-weight: bolder;
+    font-size: larger;
+
+}
+
+.navigation {
+    max-width: 600px;
+    margin: auto;
+}
+
+.navigation a {
+    background-color: var(--secondary-color);
+    border-radius: 2rem;
+    text-decoration: none;
+    color: var(--primary-color);
+    margin: 0.1rem;
+    padding: 1rem 1.2rem;
+    font-size: 1.2rem;
+}
+
+a:hover,
+button:hover {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border: 6px solid var(--secondary-color);
+    border-top: none;
+    border-bottom: none;
+}
+
+h1 {
+    margin-top: 3rem;
+    color: var(--secondary-color);
+}
+
+.formula:hover {
+    display: inline;
+    color: var(--secondary-color);
+    border: 1px dashed var(--secondary-color);
+    padding: 0.5rem;
+}
+
+label {
+    color: var(--secondary-color);
+    display: block;
+    margin: 1rem;
+}
+
+input {
+    display: block;
+    width: 20rem;
+    margin: auto;
+    max-width: 600px;
+    padding: 0.5rem 1rem;
+    background-color: var(--secondary-color);
+}
+
+button {
+    margin: 3rem;
+    padding: 0.8rem 1rem;
+    border-radius: 2rem;
+    color: var(--primary-color);
+    border: none;
+    outline: none;
+    background-color: var(--secondary-color);
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 0.1rem;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#output {
+    display: none;
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    padding: 1rem;
+}
+
+#output:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    outline: 5px dashed var(--primary-color);
+    outline-offset: -0.8rem;
+}
+
+#reset-btn {
+    display: none;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* triangleQuiz */
+
+p {
+    color: var(--secondary-color)
+}
+
+.quiz-form label {
+    display: inline-block;
+}
+
+.quiz-form input {
+    width: 1.5rem;
+}
+
+div {
+    margin-bottom: 2rem;
+}
+
+@media (max-width:600px) {
+    .navigation a {
+        display: block;
+        padding: 1rem 0rem 1rem 0rem;
+        margin: 0.6rem;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}

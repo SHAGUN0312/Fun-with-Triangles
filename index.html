@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fun with Triangles | Sum of Angles ?</title>
+    <link rel="stylesheet" href="/IsTriangle/style.css" />
+  </head>
+  <body>
+    <nav class="navigation">
+      <a href="../hypotenuse/hypotenuse.html">Calculate Hypotenuse</a>
+      <a href="../CalculateArea/area.html">Calculate Area</a>
+      <a href="../triangleQuiz/quiz.html">Triangle Quiz</a>
+    </nav>
+    <h1>Is it a triangle?</h1>
+    <div class="formula">Angle1 + Angle2 + Angle3 = 180deg</div>
+    <form>
+      <label for="angle1">Angle 1 :</label>
+      <input type="number" min="1" max="179" class="angle-input" required />
+      <label for="angle2">Angle 2 :</label>
+      <input type="number" min="1" max="179" class="angle-input" required />
+      <label for="angle3">Angle 3 :</label>
+      <input type="number" min="1" max="179" class="angle-input" required />
+      <button id="check-btn">Check It Out ⬇</button>
+    </form>
+    <div id="output"></div>
+    <script src="IsTriangle/script.js"></script>
+  </body>
+</html>
